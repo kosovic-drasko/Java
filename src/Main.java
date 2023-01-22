@@ -1,3 +1,5 @@
+import Interfejsi.ISkola;
+import Interfejsi.Skola;
 import Nasledjivanje.SubKlasaNastavnik;
 import Nasledjivanje.SubKlasaUcenik;
 import Nasledjivanje.SuperKlasaOsoba;
@@ -14,6 +16,10 @@ public class Main {
         subKlasaUcenik.setRazred(9);
         System.out.println("Ucenik podaci : " +subKlasaUcenik.toString());
 
+
+        //INTEFREJSI
+        Skola skola=new Skola();
+        System.out.println(skola.print());
     }
 
 }

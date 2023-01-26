@@ -2,6 +2,7 @@
 import Interfejsi.Skola;
 import Nasledjivanje.SubKlasaNastavnik;
 import Nasledjivanje.SubKlasaUcenik;
+import abstrakna.Pig;
 
 
 public class Main {
@@ -25,4 +26,7 @@ public class Main {
 
     }
 
+//Pig myPig =new Pig();
+//    myPig.
+//  https://www.w3schools.com/java/tryjava.asp?filename=demo_abstract
 }

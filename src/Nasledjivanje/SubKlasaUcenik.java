@@ -28,10 +28,10 @@ public class SubKlasaUcenik {
                 ", ocjene=" + ocjene +
                 '}';
     }
-    //    public SubKlasaUcenik(Integer razred, Integer ocjene) {
-//        this.razred = razred;
-//        this.ocjene = ocjene;
-//    }
+        public SubKlasaUcenik(Integer razred, Integer ocjene) {
+        this.razred = razred;
+        this.ocjene = ocjene;
+    }
 
     // Sa konstuktorom punim
 

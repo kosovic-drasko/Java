@@ -2,7 +2,7 @@ package Interfejsi;
 
 public interface ISkola {
     String print();
-    String ime=null;
+    void kozola();
 
 
 }

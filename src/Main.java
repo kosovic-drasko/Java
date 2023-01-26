@@ -1,14 +1,14 @@
-import Interfejsi.ISkola;
+
 import Interfejsi.Skola;
 import Nasledjivanje.SubKlasaNastavnik;
 import Nasledjivanje.SubKlasaUcenik;
-import Nasledjivanje.SuperKlasaOsoba;
+
 
 public class Main {
     public static void main(String[] args) {
 
         SubKlasaNastavnik subKlasaNastavnik=new SubKlasaNastavnik();
-        SubKlasaUcenik subKlasaUcenik=new SubKlasaUcenik();
+        SubKlasaUcenik subKlasaUcenik=new SubKlasaUcenik(8,15);
         subKlasaNastavnik.setIme("Kosta");
         System.out.println("Ime nastavnika je : " + subKlasaNastavnik.getIme());
         System.out.println("Svi podaci su : " + subKlasaNastavnik.getIme()+"\n"+subKlasaUcenik.toString());
@@ -17,9 +17,12 @@ public class Main {
         System.out.println("Ucenik podaci : " +subKlasaUcenik.toString());
 
 
+
         //INTEFREJSI
         Skola skola=new Skola();
-        System.out.println(skola.print());
+        System.out.println("Pisem iz inteface:   "+skola.print());
+        skola.kozola();
+
     }
 
 }

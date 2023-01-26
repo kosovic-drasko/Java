@@ -6,4 +6,9 @@ public class Skola implements ISkola{
     public String print() {
         return "Moja skola";
     }
+
+    @Override
+    public void kozola() {
+        System.out.println("Poruka void intefrace: ");
+    }
 }

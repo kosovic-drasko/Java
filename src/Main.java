@@ -25,10 +25,10 @@ public class Main {
 //        System.out.println(skola.print());
 
 
-        AppLog al1 = new AppLog();
-        al1.write(3401,"Greska povezivanja");
-
-        AppLog al2 = new AppLog();
-        al2.write(5000,"Greska 5000");
+//        AppLog al1 = new AppLog();
+//        al1.write(3401,"Greska povezivanja");
+//
+//        AppLog al2 = new AppLog();
+//        al2.write(5000,"Greska 5000");
     }
 }

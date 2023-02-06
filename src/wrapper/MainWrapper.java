@@ -1,6 +1,6 @@
 package wrapper;
 
-public class Wrapper {
+public class MainWrapper {
     public static void main(String[] args){
 Vreme v1=Vreme.fromMinutes(15);
         System.out.println("Vreme od minuta:"+v1.toHours());

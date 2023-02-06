@@ -5,6 +5,15 @@ public class SuperKlasaOsoba {
 private String ime;
 private String prezime;
 
+    public SuperKlasaOsoba(String ime, String prezime) {
+        this.ime = ime;
+        this.prezime = prezime;
+    }
+
+    public SuperKlasaOsoba() {
+
+    }
+
     public String getIme() {
         return ime;
     }

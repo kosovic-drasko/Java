@@ -3,7 +3,7 @@ package wrapper;
 public class MainWrapper {
     public static void main(String[] args){
 Vreme v1=Vreme.fromMinutes(15);
-        System.out.println("Vreme od minuta:"+v1.toHours());
+        System.out.println("Vreme od minuta:"+v1.toSecunds());
         Vreme v2=Vreme.fromSeconde(150000);
         System.out.println("Vreme od sekunda je sati:"+v2.toHours());
 

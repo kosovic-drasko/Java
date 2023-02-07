@@ -1,4 +1,4 @@
-package wrapper;
+package Wrapper;
 
 public class Brzina {
     private double mps;

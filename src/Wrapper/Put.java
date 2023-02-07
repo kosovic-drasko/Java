@@ -1,4 +1,4 @@
-package wrapper;
+package Wrapper;
 
 public class Put {
     private double metar;

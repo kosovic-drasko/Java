@@ -1,4 +1,4 @@
-package wrapper;
+package Wrapper;
 
 public class Vreme {
     private double sekunde;

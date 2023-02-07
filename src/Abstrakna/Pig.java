@@ -1,4 +1,4 @@
-package abstrakna;
+package Abstrakna;
 
 public class Pig extends Animal{
     @Override

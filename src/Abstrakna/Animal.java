@@ -1,4 +1,4 @@
-package abstrakna;
+package Abstrakna;
 
 abstract class Animal {
     public abstract void animalSound();

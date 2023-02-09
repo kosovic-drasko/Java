@@ -9,6 +9,6 @@ public class Skola implements ISkola{
 
     @Override
     public void kozola() {
-        System.out.println("Poruka void intefrace: ");
+        System.out.println("Poruka void intefrace: konzola");
     }
 }

@@ -10,5 +10,6 @@ public class MainNasledjivanje {
 //        superKlasaOsoba.setIme("Kosta");
         System.out.println(superKlasaOsoba.toString());
         System.out.println("To je nastavnik  "+subKlasaNastavnik.toString());
+        System.out.println("Predmet je  "+subKlasaNastavnik.getPredmet());
     }
 }

@@ -1,0 +1,76 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch MainArray",
+            "request": "launch",
+            "mainClass": "Array.MainArray",
+            "projectName": "Java_e06c5a2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArryMain",
+            "request": "launch",
+            "mainClass": "Array.ArryMain",
+            "projectName": "Java_e06c5a2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainAbstrakna",
+            "request": "launch",
+            "mainClass": "Abstrakna.MainAbstrakna",
+            "projectName": "Java_e06c5a2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainInterface",
+            "request": "launch",
+            "mainClass": "Interfejsi.MainInterface",
+            "projectName": "Java_e06c5a2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java_e06c5a2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainNasledjivanje",
+            "request": "launch",
+            "mainClass": "Nasledjivanje.MainNasledjivanje",
+            "projectName": "Java_e06c5a2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainStatic",
+            "request": "launch",
+            "mainClass": "Static.MainStatic",
+            "projectName": "Java_e06c5a2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainWrapper",
+            "request": "launch",
+            "mainClass": "Wrapper.MainWrapper",
+            "projectName": "Java_e06c5a2c"
+        }
+    ]
+}

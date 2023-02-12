@@ -1,7 +1,5 @@
 package Static;
 
-import Nasledjivanje.SuperKlasaOsoba;
-
 import java.io.FileNotFoundException;
 
 public class MainStatic {

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch mainNiz",
+            "request": "launch",
+            "mainClass": "Java.Nizovi.mainNiz",
+            "projectName": "Java_5b2062f8"
+        },
+        {
+            "type": "java",
             "name": "Launch MainPetlje",
             "request": "launch",
             "mainClass": "MainPetlje",

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MainPotrosnja",
+            "request": "launch",
+            "mainClass": "Potrosnja.MainPotrosnja",
+            "projectName": "Java_7db826f9"
+        },
+        {
+            "type": "java",
             "name": "Launch mainNiz",
             "request": "launch",
             "mainClass": "Java.Nizovi.mainNiz",

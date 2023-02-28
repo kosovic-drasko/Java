@@ -4,7 +4,7 @@ public class PotrosnjaGoriva {
 
     private double rezervoar=0.0;
     private double predjeno_km=0.0;
-    private final double prosjecnaPotrosnja=5;
+    private final double prosjecnaPotrosnjaGrad=9;
     
     public double getRezervoar() {
         return rezervoar;
@@ -29,6 +29,11 @@ public void punjenje(double kolicina){
 
     public void potrosnjaNaPredjenuKm(){
 
+    }
+
+    public void voziPoGradu(double put){
+        this.predjeno_km+=put;
+        this.rezervoar-=(put/100)*prosjecnaPotrosnjaGrad;
     }
     
 }

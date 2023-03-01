@@ -5,6 +5,7 @@ public class PotrosnjaGoriva {
     private double rezervoar=0.0;
     private double predjeno_km=0.0;
     private final double prosjecnaPotrosnjaGrad=9;
+   
     
     public double getRezervoar() {
         return rezervoar;
